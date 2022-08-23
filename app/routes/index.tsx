@@ -1,11 +1,12 @@
 import { Link } from "remix";
+import { H1 } from "~/components/H1";
 
 export default function Index() {
-  return (
-    <main>
-      <h1>Gymmery</h1>
-      <p>Some header and maybe blog content here?</p>
-      <Link to="/login">Login</Link>
-    </main>
-  )
+	return (
+		<main>
+			<H1>Gymmery</H1>
+			<Link to='/login'>Log in to your Gymmery account</Link>
+			<p>Some header and maybe blog content here?</p>
+		</main>
+	);
 }

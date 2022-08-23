@@ -1,3 +1,12 @@
-.logintitle {
-    color: red;
+.login__form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	width: 100%;
+	margin: 12px 12px;
+}
+
+.login__submit {
+	margin-top: 12px;
+	cursor: pointer;
 }

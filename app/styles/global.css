@@ -1,3 +1,13 @@
 h1 {
-    font-weight: "extra-bold";
+	font-weight: "extra-bold";
+}
+
+a:visited,
+a:link {
+	color: #3e92cc;
+}
+
+label {
+	font-weight: "bold";
+	color: #3e92cc;
 }
